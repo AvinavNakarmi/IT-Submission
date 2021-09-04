@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="">Enter length of rectangle:</label>
+    <input type="text" id="text1"></input>
+    <br><br>
+    <label for="">Enter breadth of rectangle:</label>
+
+    <input type="text" id="text2"></input>
+<br><br>
+    <input type="button" id="button1" value="Area" onclick="Area();"></input>
+    <br><br>
+    <input type="text" id="text3"></input>
+    
+</body>
+<script>
+
+    function Area()
+    {
+        
+    var l=document.getElementById("text1").value;
+    var b=document.getElementById("text2").value;
+
+        var a = l*b;
+        document.getElementById("text3").value = a;
+    }
+</script>
+</html>

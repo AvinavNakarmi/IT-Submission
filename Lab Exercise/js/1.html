@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="startTimer()">
+    <h2>Date and Time</h2>
+	<div id="txt" ></div>
+</body>
+<script>
+    function DandT(){
+			 var today = new Date();
+			let y = today.getFullYear();
+			let m = today.getMonth();
+			let d = today.getDate();
+			let hrs = today.getHours();
+			let min = today.getMinutes();
+			let sec = today.getSeconds();
+
+			document.getElementById('txt').innerHTML = y+ "-" +m+ "-" +d+ "  " +hrs+ ":" +min+ ":" +sec;
+			// setTimeout(DandT(), 1000);
+		}
+        const startTimer = () => {
+            console.log("here")
+            setInterval(() => DandT(), 1000);
+        }
+		// DandT();
+</script>
+</html>

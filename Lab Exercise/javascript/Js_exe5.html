@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+</body>
+<script>
+
+    var images=new Array();
+    images=["img1.jfif","img2.jfif","img3.jpg","img4.jpg"];
+
+    for (let index = 0; index < images.length; index++) 
+ {
+     
+    img=document.createElement("img");
+     img.src=images[index];
+    img.width=300;
+    img.height=300;
+    document.body.appendChild(img);
+ }
+</script>
+</html>

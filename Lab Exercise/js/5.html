@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="val1"></input>
+    <p style="visibility: hidden;" id="para">NaN</p>
+    <input type="password" id="pass1"></input>
+    <input type="password" id="pass2"></input>
+    <p style="visibility: hidden;" id="para2">not same</p>
+    <button onclick="check();">check</button>
+</body>
+<script>
+function check()
+{
+    var x=document.getElementById("val1").value;
+    var y=document.getElementById("pass1").value;
+    var z=document.getElementById("pass2").value;
+
+    console.log(y, z, y == z, y===z);
+    if(isNaN(x))
+    {
+        document.getElementById("para").innerHTML="NaN";
+        document.getElementById("para").style.visibility="visible"; 
+    }
+    else
+    {
+        document.getElementById("para").style.visibility="hidden"; 
+
+    }
+    if (y===z) 
+    {
+        document.getElementById("para2").innerHTML="same";
+
+        document.getElementById("para2").style.visibility="visible";
+    }
+    else
+    {
+        document.getElementById("para2").innerHTML="not same";
+
+        document.getElementById("para2").style.visibility="visible";
+
+    }
+}
+
+</script>
+</html>

@@ -1,0 +1,53 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+      
+  </body>
+  <script>
+    var x = document.createElement("TABLE");
+    x.setAttribute("id", "myTable");
+    x.border = 1;
+    x.cellSpacing = 0;
+    x.cellPadding = 5;
+    x.width = "50%";
+    document.body.appendChild(x);
+    var color=["#B1AAAF","#7F7E86"];
+    var y = document.createElement("TR");
+    y.setAttribute("id", "myTr");
+    y.align="center";
+    y.style.background="blue";
+    document.getElementById("myTable").appendChild(y);
+var arr=new Array();
+arr=[["S.N","Name","Image"],
+    ["1","Name 1",""],
+    ["2","Name 2",""],
+    ["3","Name 3",""],
+    ["4","Name 4",""],];
+    for (let index = 0; index < 3; index++) 
+    {
+      var z = document.createElement("TH");
+      z.innerHTML = arr[0][index];
+      document.getElementById("myTr").appendChild(z);
+    }
+
+    for (let trIndex = 1; trIndex < 5; trIndex++) {
+      var y = document.createElement("TR");
+      y.setAttribute("id", "myTr" + trIndex);
+      y.align="center";
+    y.style.background=color[trIndex%2];
+
+      document.getElementById("myTable").appendChild(y);
+
+      for (let index = 0; index < 3; index++) {
+        var z = document.createElement("TD");
+        z.innerHTML = arr[trIndex][index];
+        document.getElementById("myTr" + trIndex).appendChild(z);
+      }
+    }
+  </script>
+</html>
