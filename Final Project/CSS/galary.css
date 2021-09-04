@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+.container
+{
+    margin: 10px auto ;
+    margin-top: 110px;
+
+    width: 1140px;
+}
+.container h1
+{
+    padding-top: 30px;
+    font-size: 50px;
+    font-weight: 200;
+    font-family: 'Cookie', cursive;
+}
+.column
+{
+    position:initial;
+    display: inline-block;
+}
+.images
+{
+    
+    
+    margin-bottom: 10px;
+    overflow: hidden;
+    box-shadow: 1px 1px 1px 1px rgba(65, 65, 65, 0.2);
+
+    padding: 0px;
+
+}
+.images img
+{
+       
+    width: 350px;
+}
+#pop
+{
+    position:fixed;top: 0;left: 0;right: 0;
+    overflow: hidden;
+    height:800px;
+    width: 1550px;
+    background-color:rgba(0, 0, 0, 0.9);
+    visibility:hidden;
+}
+.cross
+{
+    
+    padding-left: 5px;
+    padding-top: 1px;
+    margin:18px 50px ;
+
+    height: 35px;
+    width: 35px;
+    float:right;
+    border-radius: 5px;
+    color: white;
+
+    
+}
+#image
+{
+    
+    object-fit: contain;
+}
+.cross:hover
+{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.5);
+
+}

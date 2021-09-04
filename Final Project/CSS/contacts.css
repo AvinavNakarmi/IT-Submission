@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+}
+textarea {
+    font-family: sans-serif;
+}
+.container
+{
+    margin-top: 20px;
+    padding: 100px;
+
+}
+.contact-box
+{
+    max-width: 1140px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 55px;
+}
+.left
+{
+    height: 100%;
+    height: 545px;
+    width: 600px;
+    overflow:hidden;
+}
+.left img
+{
+    height: 700px;
+    width: 450px;
+}
+.right
+{
+    padding: 25px 40px;
+}
+h2
+{
+    font-size: 50px;
+    font-family: 'Cookie', cursive;
+}
+.field
+{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 2px solid rgba(0, 0,0, 0);
+    background-color: rgba(230, 230,230, 0.6);
+    font-size: 1.1rem;
+    
+    transition: 0.3s;
+
+}
+.field:hover
+{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.field:focus
+{
+    background-color: #fff;
+    border: 2px solid rgba(30, 85, 250, 0.47);
+}
+.area
+{
+    min-height: 150px;
+}
+.btn
+{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    background-color: #DD5868;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: #fff;
+    transition: .3s;
+}
+.btn:hover
+{
+    background-color: #DD5868;
+}
+.required
+{
+    float: left;
+    color: rgba(250, 30, 30); 
+    visibility: hidden;
+    
+}

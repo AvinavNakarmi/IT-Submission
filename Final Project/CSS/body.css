@@ -1,0 +1,174 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+*
+{
+    line-height: 140%;
+}
+.container
+{
+    
+    min-height: 800px;
+    margin: auto auto;
+    margin-top: 100px;
+}
+
+.banner
+{
+    margin-top: 100px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    justify-content: space-between;
+    /* display:inline-block; */
+}
+
+.left
+{
+    margin-top: 200px;
+    height: 90px;
+    width: 90px;
+    background-color:rgba(255, 255, 255, 0.2);
+    border-radius: 45px;
+    text-align: center;
+    display:inline-block;
+    padding: 20px;
+}
+.left i
+{
+    margin-top: 2px;
+    margin-left: 7px;
+}
+.content 
+{
+
+    background-color:white;
+    padding: 50px;
+    padding-bottom: 20px;
+    margin: 90px 100px;
+    width: 500px;
+    height: 350px;
+    
+    box-shadow: 1px 1px 1px 1px rgba(65, 65, 65, 0.2);
+    border-radius: 5px; 
+    display:inline-block;
+
+    
+}
+
+.content h1
+{
+    
+    font-size: 45px;
+    font-family: 'Cookie', cursive;
+    line-height: 100%;
+    margin-bottom: 6px;
+
+}
+.button
+{
+    padding: 0px; 
+    width: 100px;
+    background-color:#DD5868;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px 1px rgba(65, 65, 65, 0.2);
+    
+}
+.button p
+{
+    padding: 0px;
+    margin: 5px;
+    height: 34px;
+
+
+}
+
+.section
+{
+    margin-top: 20px;
+    padding-left: 250px;
+    padding-right: 250px;
+    
+}
+#About
+{
+    padding: 10px 250px;
+    color: #000;
+    background-color: rgba(145, 145, 145,0.2);
+}
+
+.bond h1
+{
+    color: #A10924;
+}
+.padded-container
+{
+    background-color:white;
+    margin: 20px 0px;
+
+    width: 300px;
+    float: left; 
+
+}
+.padded-container h3
+{
+    font-family: 'Cookie', cursive;
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 10px;
+}
+.dis
+{
+    height: 150px;
+    margin-bottom: 30px;
+}
+.recipe-image
+{
+    
+    width:300px;
+    height: 200px;   
+    
+}
+
+
+
+#about-content {
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+}
+
+#about-image {
+
+    width: 200px;
+    margin: 20px;
+}
+
+#recipe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.chef-image
+{
+    
+    width:200px;
+    height: 200px;   
+    border-radius: 500px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+}
+.left:hover
+{
+    background-color:rgba(255, 255, 255, 0.5);
+}
+.section h1
+{
+    font-size: 50px;
+    font-family: 'Cookie', cursive;
+}

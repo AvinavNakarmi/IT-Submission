@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  height: 100px;
+  background-color: #43333d;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+header h1 {
+  color: #bbb0b8;
+  font-family: 'Cookie', cursive;
+}
+.nav {
+  list-style: none;
+}
+a {
+  color: #b1aaaf;
+  text-decoration: none;
+}
+.nav li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+footer {
+  color: white;
+  padding: 30px;
+  background-color: #2e2e2e;
+}
+footer a {
+  margin-left: 15px;
+}
+footer p {
+    color: #b1aaaf;
+}
+#footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav a:hover {
+  color: #dd5868;
+}
+footer i:hover {
+  color: #dd5868;
+}
+.para {
+  margin-top: 20px;
+  margin-right: 180px;
+  width: 300px;
+  display: inline-block;
+}
+.underline {
+  width: 80px;
+  height: 2px;
+  border: 0;
+  background-color: #dd5868;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+.underline2 {
+  width: 80px;
+  height: 2px;
+  border: 0;
+  background-color: #dd5868;
+  border-radius: 5px;
+
+  margin-top: 5px;
+  margin-bottom: 30px;
+}

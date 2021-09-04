@@ -1,0 +1,104 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <link rel="stylesheet" href="../CSS/contacts.css" />
+    <link
+      rel="stylesheet"
+      href="../font-awesome-4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>My recipe</h1>
+
+      <div class="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="content.html">Contact Us</a></li>
+          <li><a href="galary.html">Gallery</a></li>
+        </ul>
+      </div>
+    </header>
+    <div class="container">
+      <div class="contact-box">
+        <div class="left">
+          <img src="../Images/pancake3.jpg" alt="" />
+        </div>
+        <div class="right">
+          <h2>Contact Us</h2>
+          <hr class="underline" />
+
+          <input
+            type="text"
+            class="field"
+            id="first"
+            placeholder="Your First name"
+            onkeypress="clearErrorMessage('first', '1')"
+          />
+          <p class="required" id="1">Required</p>
+          <input
+            type="text"
+            class="field"
+            id="last"
+            placeholder="Your Last name"
+            onkeypress="clearErrorMessage('last', '2')"
+          />
+          <p class="required" id="2">Required</p>
+          <input
+            type="email"
+            class="field"
+            id="Email"
+            placeholder="Your Email"
+            onkeypress="clearErrorMessage('Email', '3')"
+          />
+          <p class="required" id="3">Required</p>
+          <input
+            type="text"
+            class="field"
+            id="Phone"
+            placeholder="Your Phone"
+            onkeypress="clearErrorMessage('Phone', '4')"
+          />
+          <p class="required" id="4">Required</p>
+          <textarea
+            class="field area"
+            id="Message"
+            placeholder="Message"
+            onkeypress="clearErrorMessage('Message', '5')"
+          ></textarea>
+          <p class="required" id="5">Required</p>
+          <button class="btn" onclick="validation();">Send</button>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="nav" id="footer-container">
+        <p>Copyright &copy; 2021</p>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="content.html">Contact Us</a></li>
+          <li><a href="galary.html">Gallery</a></li>
+        </ul>
+        <div">
+          <a href="https://www.instagram.com/">
+            <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.facebook.com/">
+            <i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i>
+          </a>
+          <a href="https://twitter.com/?lang=en">
+            <i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.reddit.com/">
+            <i class="fa fa-reddit fa-lg" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="../Javascript/varification.js"></script>
+</html>

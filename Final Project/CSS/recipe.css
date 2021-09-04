@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+*
+{
+    line-height: 180%;
+}
+.bond
+{
+    margin-top: 100px;
+    padding:100px;
+    
+}
+.image
+{
+    float: right;
+    width: 600px; 
+    height: 400px; 
+    overflow:hidden;
+}
+
+.image img
+{
+    width: 600px;
+    height: 400px;
+}
+p 
+{
+    width: 600px;
+}
+
+.bond h1
+{
+    
+    font-size: 50px;
+    font-family: 'Cookie', cursive;
+}
+h2
+{
+    font-family: 'Cookie', cursive;
+    font-weight: 200;
+    font-size: 40px;
+}
+h3
+{
+    
+    font-family: 'Cookie', cursive;
+    font-weight: 200;
+    font-size: 30px;
+}
